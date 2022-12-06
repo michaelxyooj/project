@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6e3ff4b61f.js" crossorigin="anonymous"></script>
+    <script src="jquery-3.6.1.min.js"></script>
+    <title>Living Stone Alliance Church</title>
+</head>
+<body>
+    <section class="navigation">
+        <div class="nav-container">
+            <div class="brand">
+                <img src="img/logo-black.png" alt="logo" class="logo-image">
+                <a href="index.html">Living Stone Alliance Church</a>
+            </div>
+            <nav>
+                <div class="nav-mobile">
+                    <a id="nav-toggle" href="#!"><span></span></a>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown-link"><a href="#!">Ministry</a>
+                        <ul class="nav-dropdown"> 
+                            <li><a href="ministry.html">Senior Pastor</a></li>
+                            
+                            <!--************** Additional navigation links. Replace ministry.html with updated link *********************-->
+                            <li><a href="mens.html">Men's</a></li>
+                            <li><a href="ministry.html">Women's</a></li>
+                            <li><a href="ministry.html">Single Adult</a></li>
+                            <li><a href="ministry.html">Youth</a></li>
+                            <li><a href="ministry.html">Praise & Worship</a></li>
+                            <li><a href="ministry.html">Children</a></li>
+                            <li><a href="ministry.html">Sound System</a></li>
+                            <li><a href="ministry.html">Cooks</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="sermons.html">Sermons</a></li>
+                    <li><a href="about.html">About</a></li>
+
+                    <!--************* Navigation Give Button  *************-->
+                    <button class="tithely-give-btn nav-give-btn" data-church-id="14263">Give</button> <script src="https://tithe.ly/widget/v3/give.js?3"></script> <script> var tw = create_tithely_widget(); </script>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    
+    <main>
+        <div class="ministry-wrapper">
+            <h2 class="main-h2"><span>Ministry</span></h2>
+            <p>We have many ministries here at Living Stone Alliance Church. Please contact us for more information or if you have any questions.</p>
+
+            <div class="ministry-image-container">
+                <img src="img/waterfall.jpg" alt="waterfall image" class="waterfall-img">
+                <p>“Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up.”</p>
+                <p>Galatians 6:9</p>
+            </div>
+
+            <h4>Ministries</h4>
+            
+
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 10</div>
+                    <img src="img/senior_pastor.jpg" style="width:100%">
+                    <div class="text">Senior Pastor - Kx. Vaam Txus Xyooj</div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 10</div>
+                    <img src="img/womens-ministry.jpg" style="width:100%">
+                    <div class="text">Women's Ministry</div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 10</div>
+                    <img src="img/mens-ministry.jpg" style="width:100%">
+                    <div class="text">Men's Ministry</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 10</div>
+                    <img src="img/praise-worship.jpg" style="width:100%">
+                    <div class="text">Praise & Worship</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 10</div>
+                    <img src="img/youth-ministry.jpg" style="width:100%">
+                    <div class="text">Youth Ministry</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 10</div>
+                    <img src="img/childrens-ministry.jpg" style="width:100%">
+                    <div class="text">Children's Ministry</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">7 / 10</div>
+                    <img src="img/single-adult-ministry.jpg" style="width:100%">
+                    <div class="text">Single Adult Ministry</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">8 / 10</div>
+                    <img src="img/sound-system-ministry.jpg" style="width:100%">
+                    <div class="text">Sound System</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">9 / 10</div>
+                    <img src="img/cooks.jpg" style="width:100%">
+                    <div class="text">Cooks</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">10 / 10</div>
+                    <img src="img/cooks2.jpg" style="width:100%">
+                    <div class="text">Cooks</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+                <span class="dot" onclick="currentSlide(10)"></span>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <ul class="footer-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ministry.html">Ministry</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="sermons.html">Sermons</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        
+        <div class="footer-heading">
+            <a href="index.html"><img src="img/logo-black.png" alt="logo image" class="logo-img footer-logo"></a>
+            <h3>Living Stone Alliance Church</h3>
+        </div>
+        
+
+        <div class="footer-center">
+            <div class="footer-location">
+                <i class="fa-solid fa-location-dot fa-2xl location-icon"></i>
+                <p>3131 N. Meade Street</p>
+                <P>Appleton, WI 54911</P>
+                <a href="https://www.google.com/maps/place/Living+Stone+Alliance+Church/@44.2920345,-88.3974675,17z/data=!4m5!3m4!1s0x8803b13676b1ff23:0xe2ce7200acc167ce!8m2!3d44.2920998!4d-88.3963195" target="_blank" class="get-directions-link"><p>Get Directions</p></a>
+            </div>
+            <div class="footer-donation">
+                <button class="tithely-give-btn bottom-nav-give-btn" data-church-id="14263">Give</button> <script src="https://tithe.ly/widget/v3/give.js?3"></script> <script> var tw = create_tithely_widget(); </script>
+                
+                <a href="#" class="creditcard-icon"><i class="fa-solid fa-credit-card fa-2xl"></i></a>
+                <h4>Give</h4>
+                <p>Give online</p>
+            </div>    
+        </div>
+        <div class="footer-icon-container">
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/livingstoneappleton/" class="facebook-icon" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+                <a href="https://www.youtube.com/channel/UCQrFD09akwcXPdKyxXH5KAw" target="_blank" class="youtube-icon"><i class="fa-brands fa-youtube fa-2xl"></i></a>
+            </div>
+        </div>
+        
+        
+        <p class="footer-bottom">Living Stone Alliance Church is an affiliate of the Christian & Missionary Alliance and Hmong District. For more information, please visit <span><a href="https://cmalliance.org/" target="_blank">CMAlliance.org</a></span> or <span> <a href="https://www.hmongdistrict.org/" target="_blank">hmongdistrict.org.</a></span></p>
+    </footer>
+
+</body>
+
+<script>
+    (function($) { // Begin jQuery
+  $(function() { // DOM ready
+    // If a link has a dropdown, add sub menu toggle.
+    $('nav ul li a:not(:only-child)').click(function(e) {
+      $(this).siblings('.nav-dropdown').toggle();
+      // Close one dropdown when selecting another
+      $('.nav-dropdown').not($(this).siblings()).hide();
+      e.stopPropagation();
+    });
+    // Clicking away from dropdown will remove the dropdown class
+    $('html').click(function() {
+      $('.nav-dropdown').hide();
+    });
+    // Toggle open and close nav styles on click
+    $('#nav-toggle').click(function() {
+      $('nav ul').slideToggle();
+    });
+    // Hamburger to X toggle
+    $('#nav-toggle').on('click', function() {
+      this.classList.toggle('active');
+    });
+  }); // end DOM ready
+})(jQuery); // end jQuery
+
+
+
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+    
+</script>
+</html>
